@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SaleLive — Quality Fashion for Everyone</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;margin:0;color:#111;background:#fafafa}
+    header{background:#0a74da;color:white;padding:28px 16px;text-align:center}
+    header h1{margin:0;font-size:clamp(24px,5vw,40px)}
+    .wrap{max-width:980px;margin:20px auto;padding:0 16px}
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+    .card{border:1px solid #e6e6e6;border-radius:10px;padding:12px;background:white;box-shadow:0 2px 4px rgba(0,0,0,0.05)}
+    img{max-width:100%;border-radius:8px}
+    .cta{display:inline-block;background:#0a74da;color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none}
+    footer{padding:18px;text-align:center;color:#666;font-size:14px}
+    @media (min-width:900px){header{padding:40px 16px}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SaleLive</h1>
+    <p>Trendy Fashion & Great Deals — Delivered to Your Doorstep</p>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>Our Products</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="https://via.placeholder.com/600x400?text=Tshirt" alt="Tshirt">
+          <h3>Tshirt</h3>
+          <p>Comfortable cotton T-shirts for men & women in all sizes and colors.</p>
+          <p><a class="cta" href="https://wa.me/917367805914?text=Hi%20I%20want%20to%20order%20Tshirt">Order via WhatsApp</a></p>
+        </div>
+
+        <div class="card">
+          <img src="https://via.placeholder.com/600x400?text=Half+Pants" alt="Half Pants">
+          <h3>Half Pants</h3>
+          <p>Stylish half pants perfect for summer — breathable and durable.</p>
+          <p><a class="cta" href="https://wa.me/917367805914?text=Hi%20I%20want%20to%20order%20Half%20Pants">Order via WhatsApp</a></p>
+        </div>
+
+        <div class="card">
+          <img src="https://via.placeholder.com/600x400?text=Trousers" alt="Trousers">
+          <h3>Trousers</h3>
+          <p>Formal & casual trousers available in multiple fits and materials.</p>
+          <p><a class="cta" href="https://wa.me/917367805914?text=Hi%20I%20want%20to%20order%20Trousers">Order via WhatsApp</a></p>
+        </div>
+
+        <div class="card">
+          <img src="https://via.placeholder.com/600x400?text=Saree" alt="Saree">
+          <h3>Saree</h3>
+          <p>Beautiful sarees in elegant designs — perfect for every occasion.</p>
+          <p><a class="cta" href="https://wa.me/917367805914?text=Hi%20I%20want%20to%20order%20Saree">Order via WhatsApp</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:24px">
+      <h2>Our Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Personal Styling Help</h3>
+          <p>Not sure what fits you best? Get personalized outfit suggestions on WhatsApp.</p>
+          <p><a class="cta" href="https://wa.me/917367805914?text=Hi%20I%20want%20Personal%20Styling%20Help">Chat Now</a></p>
+        </div>
+
+        <div class="card">
+          <h3>Custom Orders</h3>
+          <p>We accept bulk and customized clothing orders for special events or teams.</p>
+          <p><a class="cta" href="https://wa.me/917367805914?text=Hi%20I%20want%20to%20place%20a%20custom%20order">Contact Us</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:24px">
+      <h2>Contact Us</h2>
+      <p>📞 <strong>+91 7367805914</strong></p>
+      <p>📧 <strong><a href="mailto:rkhzb736@gmail.com">rkhzb736@gmail.com</a></strong></p>
+      <p>Follow us on Instagram @salelive for latest offers and deals!</p>
+
+      <h3 style="margin-top:12px">Quick Message</h3>
+      <form action="https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse" method="POST" target="_blank">
+        <input name="entry.123456" placeholder="Your Name" required style="padding:8px;margin:6px 0;width:100%"><br>
+        <input name="entry.234567" placeholder="Phone or Email" required style="padding:8px;margin:6px 0;width:100%"><br>
+        <textarea name="entry.345678" placeholder="Message / Order Details" required style="padding:8px;margin:6px 0;width:100%"></textarea><br>
+        <button type="submit" class="cta">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="yr"></span> SaleLive — Fashion that fits your lifestyle.
+  </footer>
+  <script>document.getElementById('yr').textContent=(new Date()).getFullYear()</script>
+</body>
+</html>
